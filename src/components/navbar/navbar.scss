@@ -1,0 +1,35 @@
+.navbar {
+    height: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0% 4rem;
+
+    &_uno {
+        flex-grow: 1;
+    }
+
+    & a {
+        color: black;
+        font-size: .9rem;
+
+        &:first-child {
+            color: turquoise;
+        }
+    }
+
+    &_home {
+        color: turquoise;
+    }
+
+    &_btn {
+
+        :first-child {
+            margin-right: 1rem;
+        }
+
+        :last-child {
+            margin-right: 1rem;
+        }
+    }
+}

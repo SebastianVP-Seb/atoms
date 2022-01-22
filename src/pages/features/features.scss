@@ -1,0 +1,10 @@
+.features {
+    margin: 4rem 4rem;
+
+    &_container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        margin: 0 4rem;
+    }
+}

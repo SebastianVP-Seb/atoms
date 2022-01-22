@@ -1,0 +1,22 @@
+.easy {
+    margin: 4rem 4rem;
+
+    &_container {
+
+        &-bottom {
+            background-color: rgb(226, 226, 226);
+            height: 5rem;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            :first-child {
+                margin-right: 1rem;
+            }
+
+            :last-child {
+                margin-right: 1rem;
+            }
+        }
+    }
+}

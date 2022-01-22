@@ -1,0 +1,65 @@
+.build {
+    margin: 4rem 4rem;
+    display: flex;
+    padding: 2rem;
+    top: 8rem;
+    height: 90vh;
+
+    &_start {
+        width: 50%;
+
+        &-p {
+            color: turquoise;
+            
+            & span {
+                color: blueviolet;
+            }
+        }
+
+        & h1 span {
+            color: blueviolet;
+        }
+
+        &_btns {
+            margin-top: 2rem;
+            width: 70%;
+            display: flex;
+            justify-content:space-between;
+        }
+
+        &-modal {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 2rem;
+            background-color:rgb(255, 255, 255);
+            padding: .4rem .7rem;
+            border: 1px solid rgb(0, 140, 255);
+        }
+    }
+
+    &_simulador {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+    }
+}
+
+.modal {
+    width: 80%;
+    position: 'absolute';
+    height: 80%;
+    display: flex;
+
+    &_img {
+        width: 100%;
+        height: 100%;
+        
+        &-1 {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

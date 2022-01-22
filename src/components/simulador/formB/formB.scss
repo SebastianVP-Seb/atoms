@@ -1,0 +1,105 @@
+.form {
+    padding: .5rem .7rem;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1rem;
+    
+    &_title {
+        text-align: center;
+    }
+
+    &_first {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 .2rem;
+
+        &-label {
+            font-weight: bold;
+        }
+
+        &-input {
+            text-align: center;
+            padding: .2rem .4rem;
+            width: 40%;
+            border-radius: 2rem;
+            border: 1px solid blueviolet;
+        
+            &:active {
+                border: 1px solid blueviolet;
+            }
+        }
+    }
+
+    &_second {
+
+        margin: 0 2rem;
+
+        &-tasa {
+
+            & span {
+                color: blueviolet;
+                font-weight: bold;
+            }
+        }
+    
+        &-meses {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: unset;
+        }
+    }
+
+    &_third {
+        text-align: center;
+    }
+
+    &_datos {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        
+        &-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &--label {
+                width: max-content;
+                justify-content: flex-end;
+                right: 0;
+                margin-right: .5rem;
+            }
+
+            &--resultado {
+                width: max-content;
+                padding: .3rem .6rem;
+                border: solid 1px blueviolet;
+                background-color: white;
+                border-radius: 2rem;
+                text-align: center;
+            }
+        }
+    }
+
+    &_btn {
+        display: flex;
+        justify-content: center;
+        transition: all .5s ease-in-out;
+
+        &-1 {
+            border: 1px solid transparent;
+            background-color: blueviolet;
+            color: white;
+            border-radius: 2rem;
+            padding: .5rem .7rem;
+
+            &:hover {
+                border: 1px solid blueviolet;
+                color: blueviolet;
+                background-color: white;
+            }
+        }
+    }
+}
