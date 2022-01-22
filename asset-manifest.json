@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/atoms/static/css/main.1a1dd237.css",
+    "main.js": "/atoms/static/js/main.5f161f00.js",
+    "static/media/world-bg.png": "/atoms/static/media/world-bg.90e95dcc641394a6303d.png",
+    "index.html": "/atoms/index.html",
+    "main.1a1dd237.css.map": "/atoms/static/css/main.1a1dd237.css.map",
+    "main.5f161f00.js.map": "/atoms/static/js/main.5f161f00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a1dd237.css",
+    "static/js/main.5f161f00.js"
+  ]
+}
